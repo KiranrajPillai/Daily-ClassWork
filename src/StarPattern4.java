@@ -1,15 +1,13 @@
 import java.util.Scanner;
 
 public class StarPattern4 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of rows to be printed ");
-        int myrows = scanner.nextInt();
+        int row = scanner.nextInt();
         System.out.println("\nThe star pattern is... ");
-        for (int m=1; m<=myrows; m++)
-        {
-            for (int n=myrows; n>m; n--)
+        for (int m=1; m<=row; m++) {
+            for (int n=row; n>m; n--)
             {
                 System.out.print(" ");
             }
@@ -19,9 +17,8 @@ public class StarPattern4 {
             }
             System.out.println();
         }
-        for (int m=myrows-1; m>=1; m--)
-        {
-            for (int n=myrows-1; n>=m; n--)
+        for (int m=row-1; m>=1; m--) {
+            for (int n=row-1; n>=m; n--)
             {
                 System.out.print(" ");
             }
@@ -32,5 +29,5 @@ public class StarPattern4 {
             System.out.println();
         }
     }
-
 }
+
