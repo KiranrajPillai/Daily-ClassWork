@@ -11,3 +11,8 @@ public class StarPattern8 {
         }
     }
 }
+//*
+//**
+//***
+//****
+//*****

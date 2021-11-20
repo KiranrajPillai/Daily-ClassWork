@@ -17,3 +17,8 @@ public class StarPattern10 {
         }
     }
 }
+//1
+//10
+//101
+//1010
+//10101

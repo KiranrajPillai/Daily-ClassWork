@@ -9,3 +9,8 @@ public class StarPattern5 {
 
     }
 }
+//*
+//**
+//***
+//****
+//*****

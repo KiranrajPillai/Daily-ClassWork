@@ -7,9 +7,20 @@ public class StarPattern11 {
                 if (j <= 6 - k || j >= 4 + k) {
                     System.out.print("*");
                 }
-                System.out.print("The pattern of the given star pattern is also known as:");
+                System.out.print("");
             }
             System.out.println();
         }
     }
 }
+//********
+//*******
+//******
+//****
+//***
+//**
+//***
+//****
+//*****
+//******
+//*******
